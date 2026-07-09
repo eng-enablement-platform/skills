@@ -28,7 +28,7 @@ Right before `git push` or opening a PR, on a change the author believes is done
 
 6. **Convention consistency.** Compare the new code against how the surrounding codebase already does things: naming, file layout, error handling, import style, how similar problems were solved elsewhere. Flag divergence from established local patterns, not divergence from your personal preference.
 
-7. **Verdict.** Group findings by the five areas above, each tagged blocking / consider / nit and citing the file:line. End with a one-line call: ready to push, or the specific things to resolve first. If the change is clean, say so plainly — don't manufacture findings.
+7. **Verdict.** Group findings by the five areas above, each tagged blocking / consider / nit and citing the file:line. Every finding should point at *why* it matters, not just what it is — a reason the author can act on. End with a one-line call: ready to push, or the specific things to resolve first. If the change is clean, say so plainly — don't manufacture findings.
 
 ## Rules
 

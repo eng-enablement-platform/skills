@@ -28,7 +28,7 @@ When forward motion has stalled because the problem is under-defined, or because
 - End with one concrete action, not a list of options to choose between. If choice is unavoidable, recommend one and say why.
 - Smallest reversible step first — favor the action that buys the most information cheaply.
 - Name the unknowns explicitly. An unnamed unknown stays an obstacle; a named one becomes a task.
-- In no-win situations, don't stall waiting for a clean option. Pick the least-bad path and be honest about the cost.
+- In no-win situations, don't stall waiting for a clean option. Pick the least-bad path and be honest about the cost — don't sanitise the tradeoff away.
 - Distinguish real constraints from assumed ones — question the ones that only feel fixed.
 
 ## Example

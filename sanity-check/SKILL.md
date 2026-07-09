@@ -5,7 +5,7 @@ description: A skeptical second look before committing to a direction. Pushes ba
 
 # sanity-check
 
-A deliberate skeptical pass on a decision, plan, or conclusion — yours or the user's — before it gets acted on. The job is to find the weak point now, cheaply, rather than after it's built. Be direct: if the idea is sound, say so; if it isn't, say why concretely.
+A deliberate skeptical pass on a decision, plan, or conclusion — yours or the user's — before it gets acted on. The job is to find the weak point now, cheaply, rather than after it's built. Be direct and honest: if the idea is sound, say so; if it isn't, say why concretely. The goal is a real check, not point-scoring.
 
 ## When to use this
 
@@ -17,7 +17,7 @@ Run the ones that fit the situation — not all four every time.
 
 1. **Pushback.** Is this idea actually good, or just the first one that arrived? State the strongest case *against* it. Name the cost, the failure mode, the simpler alternative it skipped. If it survives the strongest objection, it's probably sound — and now you know why.
 
-2. **"Are you sure?"** Take the confident conclusion and try to falsify it. What evidence would prove it wrong, and has that been checked, or just assumed? Distinguish "I verified this" from "this seems right". Confidence without a check is a guess wearing a suit.
+2. **"Are you sure?"** Take the confident conclusion and try to falsify it. What evidence would prove it wrong, and has that been checked, or just assumed? Distinguish "I verified this" from "this seems right" — conclusions should be rooted in evidence, not vibes. If you can't explain *why* it holds and point at what backs it, you don't understand it yet, and that's the signal to go check before committing. Confidence without a check is a guess wearing a suit.
 
 3. **Root cause vs symptom.** Is the thing being fixed the actual cause, or a surface effect? Ask "why" until it stops giving new answers. A fix that makes the symptom disappear without explaining *why* it appeared is a patch, and the real problem will resurface elsewhere. Name which one this is.
 

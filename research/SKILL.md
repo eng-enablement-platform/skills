@@ -17,7 +17,7 @@ When someone needs a trustworthy orientation on a topic quickly and doesn't need
 
 2. **Find three credible sources.** Use web search. Prefer primary sources, official docs, peer-reviewed work, or recognized authorities over content-farm blogs. Check the date — flag anything stale for a fast-moving topic. If you can't find three credible ones, report how many you found rather than padding with weak links.
 
-3. **Summarize each in 2-3 sentences.** For every source: what it claims relevant to the question, and why it's credible (who, when, what authority). Link it. No filler — the summary should let the reader decide whether to open it.
+3. **Summarize each in 2-3 sentences.** For every source: what it claims relevant to the question, and why it's credible (who, when, what authority). Link it — if a claim can be checked, cite where. Gloss any jargon in plain English on first use ("a subnet is a network inside a network") so the summary stands on its own. No filler — it should let the reader decide whether to open the source.
 
 4. **Flag disagreement.** State explicitly where the sources conflict, or note if they agree. Disagreement is the most valuable output — it tells the reader where the topic is genuinely unsettled versus settled. If they agree, that consensus is itself a finding.
 
