@@ -70,3 +70,4 @@ diagrams/icons/
 
 # Dev Containers lockfile — auto-generated, machine-specific
 .devcontainer/devcontainer-lock.json
+.ideas
