@@ -11,6 +11,10 @@ Get an ambiguous or stuck situation moving again. Two shapes: "too vague to star
 
 When forward motion has stalled because the problem is under-defined, or because every path has a real cost and none is a clear winner. If the user already knows what to do and just needs it done, this skill doesn't apply.
 
+## Input
+
+If the situation was described with the invocation, take it and start working the steps below. Only ask the user to describe what they're stuck on when the invocation carried nothing.
+
 ## Steps
 
 1. **Pin down the actual goal.** What does "done" look like, concretely? Vague problems often hide because the objective was never stated sharply. Strip it to one sentence: "I need X so that Y." If that can't be written yet, that *is* the first unknown to resolve.

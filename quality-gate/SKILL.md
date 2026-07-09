@@ -11,6 +11,10 @@ The last judgment pass before code leaves the machine. Mechanical correctness (l
 
 Right before `git push` or opening a PR, on a change the author believes is done. Not a mid-development QA pass (that's `qa-check`) and not a mechanical checker - if the finding is "lint would flag this", stay silent and let the hook do its job.
 
+## Input
+
+If a base/range or stated intent was given with the invocation, take it and proceed. Only ask about intent when it's genuinely unclear and nothing in the branch name, commits, or invocation reveals it.
+
 ## Steps
 
 1. **Read the full change.** `git diff <base>...HEAD` for the branch's whole delta, not just the last commit. Use `git status` for untracked files. Establish what the change is *supposed* to do - from the branch name, commit messages, linked issue, or by asking if intent is genuinely unclear.

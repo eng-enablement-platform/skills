@@ -11,6 +11,10 @@ Get a stalled task moving by finding *why* it's stuck, not by cheerleading. Low 
 
 When someone knows what to do but isn't doing it. Procrastination, dread, or overwhelm on a task that's genuinely theirs to do. Not for tasks that are actually the wrong thing to do - if avoidance is a valid signal the task shouldn't happen, say that instead.
 
+## Input
+
+If the task they're stalled on was given with the invocation, take it and work the steps below. Only ask the user what they're stuck on when the invocation carried nothing.
+
 ## Steps
 
 1. **Find the actual friction.** Ask what specifically makes this heavy. Usually one of: it's too vague to start, it's too big to hold in your head, it's blocked on something unknown, or it carries dread with a nameable cause (fear of finding out it's broken, an unpleasant conversation, etc.). Name which one - the fix differs for each.

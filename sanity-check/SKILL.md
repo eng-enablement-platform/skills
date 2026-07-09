@@ -11,6 +11,10 @@ A deliberate skeptical pass on a decision, plan, or conclusion - yours or the us
 
 Any moment before commitment where a wrong turn is expensive: about to pick an approach, about to declare a bug fixed, about to accept a conclusion that "feels obviously right". Especially when confidence is high and nothing has actually challenged it yet.
 
+## Input
+
+If the decision or claim to check was given with the invocation, take it and run the lenses below. Only ask the user what to check when the invocation carried nothing.
+
 ## The four lenses
 
 Run the ones that fit the situation - not all four every time.

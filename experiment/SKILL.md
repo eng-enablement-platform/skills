@@ -11,6 +11,10 @@ Prototyping mode for learning fast. The goal is a running result that answers "d
 
 When the question is "will this work?" and the answer is worth more than the code. Validating a library, checking an API's behavior, testing a hunch. Not for anything that ships - the moment a prototype is meant to survive, switch out of this mode and build it properly.
 
+## Input
+
+If the thing to prototype was given with the invocation, take it and build the shortest path to an answer. Only ask what to test when the invocation carried nothing.
+
 ## Steps
 
 1. **Name what you're testing.** One sentence: the specific question the prototype answers. "Can I stream tokens from this API and render them incrementally?" A prototype without a question is just unfinished code.

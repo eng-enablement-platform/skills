@@ -9,6 +9,10 @@ Turn the current git diff into a focused, executable QA pass. The value is speci
 
 Mid-development behavioral verification - not the final pre-push gate, and it does not re-run lint/typecheck/tests/build (assume those are handled elsewhere).
 
+## Input
+
+If a scope or diff range was given with the invocation (e.g. `/qa-check the last commit`, `/qa-check the login changes`), take it and proceed. Only fall back to asking when the range is genuinely ambiguous and no hint was given.
+
 ## Steps
 
 1. **Read the diff.** Determine the scope of changes:

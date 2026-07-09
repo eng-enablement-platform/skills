@@ -11,6 +11,10 @@ Give a fast, credible read on a topic: three sources, each summarized tightly, w
 
 When someone needs a trustworthy orientation on a topic quickly and doesn't need a literature review. If the ask is genuinely exhaustive ("survey everything on X"), this skill is the wrong tool - say so.
 
+## Input
+
+If a topic was given with the invocation (e.g. `/research everything on the PPC API`), take it and proceed - do the sharpening in Step 1 yourself rather than bouncing it back. Only ask the user for a topic when the invocation carried none at all.
+
 ## Steps
 
 1. **Sharpen the question.** Restate the topic as a specific question the sources should answer. "Research caching" → "what are the current recommended cache-invalidation strategies for read-heavy web APIs?" A vague question yields vague sources.
