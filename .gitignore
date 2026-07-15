@@ -12,7 +12,7 @@
 
 # testing
 /coverage
-.prototypes
+prototypes
 
 # playwright
 /e2e-tests/test-results/
