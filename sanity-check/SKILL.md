@@ -7,6 +7,7 @@ description: A skeptical second look before committing to a direction. Pushes ba
 
 A deliberate skeptical pass on a decision, plan, or conclusion - yours or the user's - before it gets acted on. The job is to find the weak point now, cheaply, rather than after it's built. Be direct and honest: if the idea is sound, say so; if it isn't, say why concretely. The goal is a real check, not point-scoring.
 
+
 ## When to use this
 
 Any moment before commitment where a wrong turn is expensive: about to pick an approach, about to declare a bug fixed, about to accept a conclusion that "feels obviously right". Especially when confidence is high and nothing has actually challenged it yet.

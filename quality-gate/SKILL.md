@@ -7,6 +7,8 @@ description: Pre-push judgment review of a change before it leaves your machine.
 
 The last judgment pass before code leaves the machine. Mechanical correctness (lint, types, tests, build) is assumed already gated by hooks - this skill only covers what a human reviewer would catch and a tool won't. Every finding must point at a specific file/hunk; a comment that could apply to any diff is noise.
 
+Never accept a result — good news or bad — on plausibility. Measure it against the real system (exit codes, real queries, real API reads), state what you expect BEFORE measuring, and treat any deviation from that expectation as an anomaly to explain, not noise — especially the pleasant kind, because bad surprises trigger debugging naturally while good ones get narrated straight into the conclusion.
+
 ## When to use this
 
 Right before `git push` or opening a PR, on a change the author believes is done. Not a mid-development QA pass (that's `qa-check`) and not a mechanical checker - if the finding is "lint would flag this", stay silent and let the hook do its job.
