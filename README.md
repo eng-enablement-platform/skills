@@ -10,7 +10,29 @@ Personal library of reusable [Agent Skills](https://agentskills.io)
 | [find-a-path](find-a-path/) | Turns "don't know where to start" or "no clean win" into one concrete first step by scoping the problem and surfacing the unknowns. |
 | [research](research/) | Finds exactly three credible sources on a topic, summarizes each in 2-3 sentences, and flags where they disagree. |
 | [experiment](experiment/) | Throwaway prototyping mode - shortest path to a running result, no abstraction/error-handling/tests, explicitly not production code. |
-| [get-unstuck](get-unstuck/) | For low motivation: finds the actual friction point and shrinks the task to a two-minute first step, no hype. |
+| [get-unstuck](get-unstuck/) | Finds the actual friction point and shrinks the task to a two-minute first step, no hype. |
+
+## Prototypes (work-in-progress skills)
+
+`prototypes/` holds skills you're still building and haven't published to the table above. Because they live in a plain source dir, the harness **doesn't discover them automatically** — you have to symlink each one onto a discovery path. (This is why a new prototype "doesn't show up" until you wire it in.)
+
+1. **Build the prototype.** Create `prototypes/<name>/SKILL.md` with valid frontmatter (`name` + `description`). Iterate freely here — nothing is published or shared until you decide.
+
+2. **Symlink it onto the discovery path** so the agent can find it. Pick a scope:
+
+   ```bash
+   # Global — available in every project (matches gitlab-mr / gitlab-review)
+   ln -s ~/Desktop/repos/skills/prototypes/<name> ~/.agents/skills/<name>
+
+   # Project-local — only active inside a specific repo
+   ln -s ~/Desktop/repos/skills/prototypes/<name> /path/to/repo/.claude/skills/<name>
+   ```
+
+   Symlinks (not copies) keep a single source of truth: edit the prototype once and every wired-in location stays in sync.
+
+3. **Restart the harness** to pick up the new skill — descriptions are loaded into context at session start.
+
+To promote a prototype to a real skill, move it out of `prototypes/` and add a row to the table above.
 
 ## Two ways to use these
 

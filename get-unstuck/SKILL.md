@@ -1,6 +1,6 @@
 ---
 name: get-unstuck
-description: For low motivation on a task - reframes it as finding the actual friction point and the smallest first step, not generic hype or encouragement. Locates why the task feels heavy and shrinks it to one concrete action small enough to just do. Use when the user says "I can't get started", "I keep putting this off", "I'm not motivated", "this feels overwhelming", or is stalled on something they know they should do but aren't.
+description: Finds the actual friction point and the smallest first step, not generic hype or encouragement. Locates why the task feels heavy and shrinks it to one concrete action small enough to just do. Use when the user says "I can't get started", "I keep putting this off", or is stalled on something they know they should do but aren't.
 ---
 
 # get-unstuck
